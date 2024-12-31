@@ -1,0 +1,45 @@
+.container{
+    height:100vh;
+    width: 100vw;
+}
+
+.content{
+    border-radius: 20px;
+    background-color: rgba(255, 71, 11, 1);
+    height:100vh;
+    width: 100vw;
+    background: linear-gradient (to bottom rgba(255, 71, 11, 0.1)rgba(255, 71, 11, 1));
+    
+}
+
+
+   
+    .Imagecontainer {
+        position: relative;
+    
+    }
+
+    .image1{
+        position:absolute;
+        z-Index:3;
+    }
+
+    .image2{
+        position:absolute;
+        z-Index:1;
+        right:1px;
+        top:62px;
+        height:40vh
+    }
+
+    .btn{
+        color:rgba(255, 70, 10, 1);
+        border:none;
+        background-Color:white;
+        padding:25px;
+        position:absolute;
+        top:90%;
+        width:70vw;
+        border-Radius:25px;
+      margin-top:15px
+    }
