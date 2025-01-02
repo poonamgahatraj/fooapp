@@ -15,7 +15,7 @@ export default function Login(){
 <p  className={styles.para}>Sign-up</p>
     </div>
 </div>
-<div style={{padding:"35px"}}>
+<div style={{padding:"35px",position:"relative"}}>
     <form>
         <div>
         <label>Email address</label><br></br>
@@ -29,11 +29,19 @@ export default function Login(){
     </form>
     <p style={{color:"rgba(250, 74, 12, 1)",fontWeight:"500"}}>Forgot passcode?</p>
    
-    <div>
-    <button style={{color:"rgba(246, 246, 249, 1)",backgroundColor:"rgba(250, 74, 12, 1)",borderRadius:"20px",padding:"15px",width:"100%",border:"none"}}>ogin</button>
-</div> 
+   
 </div>
-
+<div style={{ position: "absolute", width: "100%", bottom: "0px", padding: "0 20px" }}>
+                        <button style={{
+                            color: "rgba(246, 246, 249, 1)",
+                            backgroundColor: "rgba(250, 74, 12, 1)",
+                            borderRadius: "20px",
+                            padding: "15px",
+                            width: "100%",
+                            border: "none",
+                            boxSizing:"border-box"
+                        }}>Login</button>
+                    </div>
             </div>
 
         </div>

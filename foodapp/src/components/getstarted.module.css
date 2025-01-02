@@ -1,14 +1,21 @@
 .container{
     height:100vh;
     width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
 }
 
 .content{
     border-radius: 20px;
     background-color: rgba(255, 71, 11, 1);
-    height:100vh;
-    width: 100vw;
-    background: linear-gradient (to bottom rgba(255, 71, 11, 0.1)rgba(255, 71, 11, 1));
+ border-radius: 20px;
+    width: 425px;
+height: 100vh;
+    position: relative;
+    padding-bottom: 2%;
+    overflow: hidden;
     
 }
 
@@ -22,14 +29,15 @@
     .image1{
         position:absolute;
         z-Index:3;
+        top:-50px
     }
 
     .image2{
         position:absolute;
         z-Index:1;
-        right:1px;
-        top:62px;
-        height:40vh
+        right:0px;
+        top:45px;
+      
     }
 
     .btn{
@@ -39,7 +47,17 @@
         padding:25px;
         position:absolute;
         top:90%;
-        width:70vw;
+       width:100%;
         border-Radius:25px;
-      margin-top:15px
+    
+    }
+    @media (max-width:450px){
+    
+        .Content{
+           
+            width:100vw;
+           
+    
+      }
+    
     }

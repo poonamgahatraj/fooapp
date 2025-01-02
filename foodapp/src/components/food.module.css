@@ -1,0 +1,10 @@
+.Container{
+width:425px;
+height:100vh;
+margin:auto
+}
+.content{
+    width:425px;
+height:100vh;
+background-color: #F2F2F2;
+}
