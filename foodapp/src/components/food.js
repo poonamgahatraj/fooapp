@@ -33,6 +33,27 @@ food for you</p>
     </ul>
    
   </div>
+  <div style={{display:"flex",gap:"20px",padding:"30px",position:'relative'}}>
+    <div style={{backgroundColor:"white",height:'300px',width:"230px",borderRadius:"25px",position:"relative",top:"35px",boxShadow:"rgba(57, 57, 57, 0.1)"}}>
+        <img src='./food1.png' style={{position:"absolute",top:"-18%",left:"-5%"}}></img>
+        <p className={styles.para}>Veggie tomato mix</p>
+        <p className={styles.price}>N1,900</p>
+    </div>
+
+    <div style={{backgroundColor:"white",height:'300px',width:"230px",borderRadius:"25px",position:"absolute",top:"65px",left:"72%",boxShadow:"rgba(57, 57, 57, 0.1)"}}>
+        <img src='./food1.png' style={{position:"absolute",top:"-18%",left:"-5%"}}></img>
+        <p className={styles.para}>Spicy fish sauce</p>
+        <p className={styles.price}>N2,300.99</p>
+    </div>
+
+  </div>
+
+  <div style={{display:"flex",justifyContent:"space-between",padding:'30px'}}>
+    <img src='./home.png' style={{height:"20px"}}></img>
+    <img src='./heart.png' style={{height:"20px"}}></img>
+    <img src='./user.png' style={{height:"20px"}}></img>
+    <img src='./timer.png' style={{height:"20px"}}></img>
+  </div>
             </div>
 
         </div>

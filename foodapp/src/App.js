@@ -1,3 +1,4 @@
+import Addcart from "./components/addcart";
 import Food from "./components/food";
 import Getstarted from "./components/getstarted";
 import Header from "./components/header";
@@ -10,7 +11,8 @@ function App() {
        
       {/* <Login/> */}
       {/* <Getstarted/>  */}
-      <Food/>
+      {/* <Food/> */}
+      <Addcart/>
     </div>
   );
 }

@@ -1,10 +1,46 @@
 .Container{
 width:425px;
-height:100vh;
+
 margin:auto
 }
 .content{
     width:425px;
-height:100vh;
+
 background-color: #F2F2F2;
+overflow: hidden;
+}
+
+.para{
+    font-size: 26px;
+    position: absolute;
+    top: 39%;
+    font-weight: 500;
+    width: 74%;
+    text-align: center;
+    left: 10%;
+}
+
+.price{
+    position: absolute;
+    top: 70%;
+    text-align: center;
+    left: 35%;
+    font-size: 25px;
+    color: rgba(250, 74, 12, 1);
+    font-weight: 500;
+}
+
+@media (max-width:450px) {
+    .Container{
+        width:100%;
+        
+        margin:auto
+        }
+        .content{ width:100%;
+        
+        
+        background-color: #F2F2F2;
+        overflow: hidden;
+        }
+        
 }
