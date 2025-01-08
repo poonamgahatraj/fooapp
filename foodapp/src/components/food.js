@@ -49,7 +49,7 @@ food for you</p>
   </div>
 
   <div style={{display:"flex",justifyContent:"space-between",padding:'30px'}}>
-    <img src='./home.png' style={{height:"20px"}}></img>
+    <img src='./home.png' style={{height:"20px",boxShadow:"rgba(215, 56, 0, 0.4)"}}></img>
     <img src='./heart.png' style={{height:"20px"}}></img>
     <img src='./user.png' style={{height:"20px"}}></img>
     <img src='./timer.png' style={{height:"20px"}}></img>

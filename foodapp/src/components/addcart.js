@@ -15,9 +15,9 @@ export default function Addcart (){
   </div>
   <p className={styles.para}>Veggie tomato mix</p>
   <p className={styles.para} style={{color:"rgba(250, 74, 12, 1)"}}>N1,900</p>
-  <p style={{fontWeight:"500"}}>Delivery info</p>
+  <p style={{fontWeight:"bold"}}>Delivery info</p>
   <p style={{fontSize:"22px"}}>Delivered between monday aug and thursday 20 from 8pm to 91:32 pm</p>
-  <p style={{fontWeight:"500"}}>Return policy</p>
+  <p style={{fontWeight:"bold"}}>Return policy</p>
   <p style={{fontSize:"22px"}}>All our foods are double checked before leaving our stores so by any case you found a broken food please contact our hotline immediately.</p>
 <div>
 <button  className={styles.btn}>

@@ -1,14 +1,15 @@
 .Container{
     width:425px;
-    
+    height: auto;
     margin:auto
     }
     .content{
-        width:425px;
-    
+        width:100%;
+    height: auto;
     background-color: #F2F2F2;
     overflow: hidden;
     padding: 30px;
+    flex: 1; 
    
     }
 
@@ -28,6 +29,7 @@
         border: none;
         color: white;
         background-color: rgba(250, 74, 12, 1);
+        margin-top: 10%;
     }
     
     
