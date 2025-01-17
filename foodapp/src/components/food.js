@@ -25,11 +25,11 @@ food for you</p>
   </div>
 
   <div >
-    <ul style={{listStyle:"none",display:"flex",gap:"50px",fontSize:"20px",paddingLeft:"65px"}}>
-    <li>Foods</li>
-    <li>Drinks</li>
-    <li>Snacks</li>
-    <li>Sauce</li>
+    <ul style={{listStyle:"none",display:"flex",gap:"28px",fontSize:"20px",paddingLeft:"65px"}}>
+    <li style={{color:"rgba(250, 74, 12, 1)",borderBottom:"1px solid rgba(250, 74, 12, 1)",padding:"10px"}}>Foods</li>
+    <li style={{padding:"10px",color:"rgba(154, 154, 157, 1)"}}>Drinks</li>
+    <li style={{padding:"10px",color:"rgba(154, 154, 157, 1)"}}>Snacks</li>
+    <li style={{padding:"10px",color:"rgba(154, 154, 157, 1)"}}>Sauce</li>
     </ul>
    
   </div>

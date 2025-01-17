@@ -22,7 +22,7 @@ export default function Home (){
 
 <div style={{display:"flex",justifyContent:"center"}}>
 <img src="./image1.png" style={{height:"730px",width:"500px",position:"absolute",top:"60%",left:"30%"}}></img>
-<img src="./image2.png"  style={{height:"530px",width:"250px",position:"absolute",left:"46%",top:"90%"}}></img>
+<img src="./image2.png"  style={{height:"530px",width:"250px",position:"absolute",left:"51%",top:"90%"}}></img>
 <hr></hr>
 </div>
 
@@ -32,7 +32,7 @@ export default function Home (){
         
         
         </div>
-       <hr style={{marginTop:"15%"}}></hr>
+       <hr style={{marginTop:"30%",width:"50%"}}></hr>
        <div style={{textAlign:"center"}}>
         <h1> How the app works</h1>
        </div>
@@ -84,11 +84,11 @@ export default function Home (){
     <h1 style={{color:"white",marginBottom:"0px",fontStyle:"normal"}}>Download the app now.</h1>
   
     
-    <p style={{color:"white",fontStretch:"extra-expanded",fontStyle:'normal'}}>Available on your favorite store. Start your premium experience now</p>
+    <p style={{color:"white",fontStretch:"extra-expanded",fontStyle:'normal',marginTop:"3%"}}>Available on your favorite store. Start your premium experience now</p>
 </div>
-<div style={{display:"flex",alignItems:"center",justifyContent:"center",gap:"20px",marginTop:"3%"}}>
-    <button style={{backgroundColor:"#FA4A0C",color:"white",padding:"15px",borderRadius:"20px",border:"none",width:"10%",fontWeight:"bold",fontSize:"16px"}}>Playstore</button>
-    <button style={{color:"white",padding:"12px",borderRadius:"20px",border:"0.2px solid",width:"10%",background:"none",fontWeight:"bold",fontSize:"16px"}}>App store</button>
+<div style={{display:"flex",alignItems:"center",justifyContent:"center",gap:"20px",marginTop:"7%"}}>
+    <button style={{backgroundColor:"#FA4A0C",color:"white",padding:"15px",borderRadius:"10px",border:"none",width:"10%",fontWeight:"bold",fontSize:"16px"}}>Playstore</button>
+    <button style={{color:"white",padding:"12px",borderRadius:"10px",border:"0.2px solid",width:"10%",background:"none",fontWeight:"bold",fontSize:"16px"}}>App store</button>
 
 </div>
 </div>

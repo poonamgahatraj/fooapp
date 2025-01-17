@@ -8,7 +8,7 @@
 <img src='./left.png' style={{height:"14px"}}></img>
 <p>My profile</p>
         </div>
-        <p style={{fontWeight:"500"}}>Information</p>
+        <p style={{fontWeight:"500",marginTop:"10%"}}>Information</p>
         <div style={{height:"150px",backgroundColor:"white",borderRadius:"25px"}}>
 <div style={{display:"flex",justifyContent:"space-between",padding:"20px"}}>
     <img src='./Rectangle 6 (1).png' style={{height:"60px"}}></img>
@@ -22,7 +22,7 @@
 </div>
 
         </div>
-        <p style={{fontWeight:"500"}}>Payment Method</p>
+        <p style={{fontWeight:"500",marginTop:"10%"}}>Payment Method</p>
 
         <div style={{backgroundColor:"white",borderRadius:"25px",padding:"20px"}}>
 <div style={{display:"flex",gap:"5%",alignItems:"center"}}>
@@ -34,7 +34,7 @@
 
 </div>
 
-<hr></hr>
+<hr style={{marginLeft:"10%"}}></hr>
 <div style={{display:"flex",gap:"5%",alignItems:"center"}}>
     <input type='radio'></input>
     <div className={styles.box2}>
@@ -43,7 +43,7 @@
     <p>Bank account</p>
 
 </div>
-<hr></hr>
+<hr style={{marginLeft:"10%"}}></hr>
 <div style={{display:"flex",gap:"5%",alignItems:"center"}}>
     <input type='radio'></input>
     <div className={styles.box3}>

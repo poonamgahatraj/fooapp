@@ -21,6 +21,7 @@
     background-color: white;
     height: 30vh;
     border-radius: 20px;
+    position: relative;
 }
 
 .imagecontainer{
@@ -30,17 +31,21 @@
 }
 
 .para{
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500;
+    margin-bottom: 0;
+    padding:10px;
+    
 }
 
 .input{
     width: 100%;
     border: none;
     background: none;
-    border-bottom: 1px solid;
+   font-size: 24px;
     color: black;
     outline: none;
+    margin:12px 0px
 }
 
 input::placeholder {

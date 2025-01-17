@@ -18,18 +18,29 @@ export default function Getstarted(){
         <img src='./girl.png' className={styles.image1} ></img>
         <img src='./boy.png' className={styles.image2} ></img>
     </div>
-    <div style={{ position: "absolute", width: "100%", bottom: "0px", padding: "0 20px" ,boxSizing:"border-box",height:"200px",zIndex:"5",display:"flex",justifyContent:"flex-end",alignItems:"center",flexDirection:"column",background: "linear-gradient(to top, rgba(255, 71, 11, 1), rgba(255, 71, 11, 0.1))"}}>
-                        <button style={{
+    <div style={{display:"flex",position:"absolute",bottom:"50px",zIndex:"5"}}>
+    <img src='./girlrec.png'></img>
+    <img src='./boyrec.png'></img>
+
+    </div>
+    <div style={{display:"flex",justifyContent:"center"}}>
+    <button style={{
                             color:  "rgba(250, 74, 12, 1)",
                             backgroundColor:"white",
                             borderRadius: "20px",
                             padding: "20px",
-                           width:"100%",
+                          
                             border: "none",
                             boxSizing:"border-box",
-                           marginBottom:"5%"
+                           marginBottom:"5%",
+                           position:"absolute",
+                           bottom:"0",
+                           zIndex:"6",
+                         width:"  calc(100% - 60px)"
                         }}>getstarted</button>
-                    </div>
+    </div>
+                       
+                   
     
 </div>
 

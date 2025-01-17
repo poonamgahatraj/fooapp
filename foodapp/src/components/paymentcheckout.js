@@ -22,7 +22,7 @@ export default function Paymentcheckout (){
 
 </div>
 
-<hr></hr>
+<hr style={{marginLeft:"10%"}}></hr>
 <div style={{display:"flex",gap:"5%",alignItems:"center"}}>
 <input type='radio'></input>
 <div className={styles.box2}>
@@ -47,7 +47,7 @@ export default function Paymentcheckout (){
 
 </div>
 
-<hr></hr>
+<hr style={{marginLeft:"10%"}}></hr>
 <div style={{display:"flex",gap:"5%",alignItems:"center"}}>
    <input type='radio'></input>
   

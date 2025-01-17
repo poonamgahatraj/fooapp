@@ -1,0 +1,16 @@
+.container{
+    height:100vh;
+    width:450px;
+  padding:35px;
+    background-color: #F5F5F8;
+    margin:auto
+}
+
+
+@media (max-width:450px) {
+    .container{
+        height:100vh;
+        width:100%;
+        
+    }
+}

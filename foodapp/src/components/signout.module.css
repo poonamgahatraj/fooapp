@@ -1,0 +1,38 @@
+.container{
+    height:100vh;
+    width:450px;
+  padding:35px;
+    background-color: rgba(250, 74, 12, 1);
+    margin:auto;
+    position: relative;
+    border-radius: 25px;
+}
+
+.imgg{
+    position: absolute;
+    right: 0;
+    top: 20%;
+    width:30%;
+}
+
+.imgg1{
+ 
+    position: absolute;
+    right: 0;
+    top: 26%;
+    width: 34%;
+}
+
+.line{
+    border: 0.3px solid rgba(244, 244, 248, 1);
+    width: 45%;
+    margin-left: 50px;
+}
+
+@media (max-width:450px) {
+    .container{
+       width:100%;
+       height:100vh;
+    }
+    
+}

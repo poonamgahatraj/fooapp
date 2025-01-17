@@ -18,10 +18,10 @@ export default function Checkout (){
               <div style={{backgroundColor:"white",borderRadius:"25px"}}>
 <div style={{display:"flex",justifyContent:"space-between",padding:"20px",flexDirection:"column"}}>
 <p style={{fontWeight:"500",margin:"0"}}>Marvis Kparobo</p>
-<hr></hr>
+<div style={{border:"0.5px solid #E3E3E3",width:"85%",margin:"10px 0px"}}></div>
 <p style={{width:"62%",margin:"0"}}>Km 5 refinery road oppsite re
 public road, effurun, delta state</p>
-<hr></hr>
+<div style={{border:"0.5px solid #E3E3E3",width:"85%",margin:"10px 0px"}}></div>
 <p style={{margin:"0"}}>+234 9011039271</p>
 
 

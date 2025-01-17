@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    gap:40px;
+}
+
+
+@media (max-width:450px) {
+    .para{
+        display:none;
+    }
+    
+}

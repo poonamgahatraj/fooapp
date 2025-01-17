@@ -1,0 +1,39 @@
+.container{
+    width:450px;
+    height:100vh;
+    background-color: white;
+    padding:20px;
+    border-radius: 20px;
+    margin:auto;
+
+}
+
+.btnn{
+    width:450px;
+    
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(250, 74, 12, 1);
+    color: white;
+    margin-top: 10%;
+    font-size: 18px;
+    position: absolute; /* Position button relative to the container */
+  bottom:0px;
+ 
+}
+
+@media (max-width:450px){
+    .container{
+        width:100%;
+      
+      
+    }
+
+    
+.btnn{
+    width:100%;
+ 
+ 
+}
+}
